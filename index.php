@@ -19,8 +19,8 @@
     <form action="insert.php" method="POST" enctype="multipart/form-data" class="needs-validation" novalidate>
         <div class="form-row">
             <div class="col">
-              <label for="nom">Nom d'usuari:</label>
-              <input type="text" class="form-control" id="user" name="user" placeholder="Jersei de punt blanc" required>
+              <label for="user">Nom d'usuari:</label>
+              <input type="text" class="form-control" id="user" name="user" placeholder="nom d'usuari" required>
               <div class="invalid-feedback">
                   Has d'introduïr el nom d'usuari.
               </div>
@@ -28,7 +28,7 @@
         </div>
         <div class="form-row">
             <div class="col">
-              <label for="desc">Contrasenya: </label>
+              <label for="passwd">Contrasenya: </label>
               <input type="password" name="passwd" id="passwd" placeholder="·······" required>
               <div class="invalid-feedback">
                   Has d'intoduïr la contrasenya.
