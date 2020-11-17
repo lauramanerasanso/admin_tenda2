@@ -20,7 +20,7 @@
   <body>
     
     <h1>AFEGIR ITEM</h1>
-    <form action="auth.php" method="POST" enctype="multipart/form-data" class="needs-validation" novalidate>
+    <form action="insert.php" method="POST" enctype="multipart/form-data" class="needs-validation" novalidate>
         <div class="form-row">
             <div class="col-md-6 mb-3">
               <label for="nom">Nom de l'article:</label>

@@ -16,7 +16,7 @@
   </head>
   <body>
         <h1>AUTENTICACIÓ BÀSICA PHP</h1>
-    <form action="insert.php" method="POST" enctype="multipart/form-data" class="needs-validation" novalidate>
+    <form action="auth.php" method="POST" class="needs-validation" novalidate>
         <div class="form-row">
             <div class="col">
               <label for="user">Nom d'usuari:</label>
