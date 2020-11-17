@@ -1,5 +1,5 @@
 <?php
-  include 'control_access.php';
+  include 'control_acces.php';
 ?>
 <!DOCTYPE html>
 <html lang="ca">

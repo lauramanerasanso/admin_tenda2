@@ -30,9 +30,9 @@
         }
     }
 
-        
+       
 
     $conn->close();
 
-    header('Location: www.tenda_laurams.cat');
+    
 ?>
