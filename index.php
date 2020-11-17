@@ -29,7 +29,7 @@
         <div class="form-row">
             <div class="col">
               <label for="passwd">Contrasenya: </label>
-              <input type="password" name="passwd" id="passwd" placeholder="·······" required>
+              <input type="password" class="form-control" name="passwd" id="passwd" placeholder="·······" required>
               <div class="invalid-feedback">
                   Has d'intoduïr la contrasenya.
               </div>

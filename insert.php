@@ -20,7 +20,7 @@
         if ($result->num_rows == 1){
             $id = $result->fetch_assoc()["id"];
 
-            $target_dir = $_SERVER["DOCUMENT_ROOT"] . "/imatges/" .$id.".jpg";
+            $target_dir = "../projecte1/imatges/" .$id.".jpg";
             $nomImg=$_FILES['art_img']['name'];
             $tmpImg=$_FILES['art_img']['tmp_name'];
             if(is_uploaded_file($tmpImg)){
@@ -34,5 +34,5 @@
 
     $conn->close();
 
-    header('Location: ../index.php');
+    header('Location: www.tenda_laurams.cat');
 ?>
